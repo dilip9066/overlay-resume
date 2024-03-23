@@ -1,0 +1,129 @@
+\documentclass[11pt,a4paper,sans]{moderncv}
+\moderncvstyle{banking}
+\moderncvcolor{black}
+\nopagenumbers{}
+\usepackage[utf8]{inputenc}
+\usepackage{ragged2e}
+\usepackage[scale=0.915]{geometry}
+\usepackage{import}
+\usepackage{multicol}
+\usepackage{import}
+\usepackage{enumitem}
+\usepackage[utf8]{inputenc}
+\usepackage{amssymb}
+\name{Dilip}{Shital}
+\newcommand*{\customcventry}[7][.13em]{
+\begin{tabular}{@{}l}
+{\bfseries #4} \
+{\itshape #3}
+\end{tabular}
+\hfill
+\begin{tabular}{l@{}}
+{\bfseries #5} \
+{\itshape #2}
+\end{tabular}
+\ifx&#7&%
+\else{\
+\begin{minipage}{\maincolumnwidth}%
+\small#7%
+\end{minipage}}\fi%
+\par\addvspace{#1}}
+\begin{document}
+\makecvtitle
+\vspace*{-16mm}
+\begin{center}\textbf{ Software Engineer}\end{center}
+\begin{center}
+\begin{tabular}{ c c c }
+\faMobile\enspace +91 7205401713& \enspace {$\mathbb{@}$}\enspace dilip.shital@gmail.com& \faHome\enspace Ranchi, India\\
+\faLinkedin\enspace \color{blue} \href{https://www.linkedin.com/in/dilip-shital-a69554160//}{in/dilip-shital}&
+\faGithub\enspace \color{blue} \href{https://github.com/dilip9066}{github.com/dilip9066} & \enspace {$\mathbb{W}$}\enspace \color{blue} \href{https://x.com/website}{domain/portfolio}
+\end{tabular}
+\end{center}
+
+\section{Profile}
+{Experienced Web Developer with over 5 years + of experience in frontend development, specializing in startup and government projects. While new to backend development, I have a demonstrated history of designing and developing responsive, user-friendly websites. Skilled in frontend technologies, I excel in creating efficient and innovative web solutions. Proficient in collaborating with cross-functional teams, I have successfully delivered projects that meet and exceed client expectations. Passionate about leveraging the latest web technologies to create engaging and impactful digital experiences.}
+
+\section{Areas of Expertise}
+{ HTML, CSS, JavaScript, Bootstrap, Tailwind, shadcn/ui, React, Next.js, ASP.NET Core User Interface Design, Mysql, Version Control (Git) ,UI Development, Sports Digitization,  }
+
+\section{Professional Experience}
+\customcventry{09/2022 ‐ present}{{\color{blue}\href{https://joharkhiladi.jharkhand.gov.in/}{(Directorate of Sports and Youth Affairs, Jharkhand)}}}{Software Engineer,}{Ranchi, India}{}{
+{\begin{itemize}[leftmargin=0.6cm, label={\textbullet}]
+\item Implemented Jharkhand's Sports Digitization Policy, driving the development of the Johar Khiladi Portal.
+\item Developed a comprehensive platform serving as a centralized repository for players, technical officials, stadiums/sport playgrounds, associations, and sports-related individuals.
+Created individualized dashboards and public profiles for users, enhancing user experience and accessibility.
+\item Enabled the Department to track performance, analyze data, and streamline operations.
+Facilitated applications for cash awards from the government, benefiting players and technical officials.
+\item Empowered the Department to organize tournaments and matches for over 10+ sports, promoting sports development and engagement.
+\item Collaborated with sport Director and department officials to communicate project progress, report on milestones, and ensure successful implementation of the Sports Digitization Policy.
+\end{itemize}}}
+\vspace{\baselineskip}
+\customcventry{01/2021 ‐ 08/2022}{{\color{blue}\href{https://teachertransfer.jharkhand.gov.in/}{(Department of School Education and Literacy)}}}{Web Designer,}{Ranchi, India}{}{
+{\begin{itemize}[leftmargin=0.6cm, label={\textbullet}]
+\item Developed an online system for teacher transfers in the state, ensuring fairness and transparency.
+\item Created a web portal for private schools to manage grant applications and obtain NOC certificates.
+\item Designed engaging and responsive landing pages and dashboards for both portals.
+\item Teachers can choose preferred schools, track application progress, and update personal data.
+\item Facilitated online submission of documents for Grant-in-Aid through HRD portal.
+\item Automated application verification, checklist filling, inspection report, scrutiny, screening, recommendation, financial approval, and GIA sanction.
+\item Provided support for department and users, ensuring smooth operation of the portals.
+\end{itemize}}}
+\vspace{\baselineskip}
+\customcventry{01/2020 ‐ 02/2021}{{\color{blue}\href{https://www.webelectica.com/}{(Webelectica)}}}{Front-End Developer,}{Ranchi, India}{}{
+{\begin{itemize}[leftmargin=0.6cm, label={\textbullet}]
+\item Developed user-friendly and responsive web applications using HTML, CSS, Bootstrap and JavaScript.
+\item Collaborated with design and back-end teams to ensure seamless integration of UI elements.
+\item Conducted thorough testing and debugging to ensure high-quality, bug-free code.
+\item Optimized applications for maximum speed and scalability.
+\item Implemented best practices in web development to enhance user experience.
+\item Worked closely with stakeholders to understand project requirements and deliver solutions that meet their needs.
+\end{itemize}}}
+\newpage % Start the next topic on a new page
+\customcventry{05/2018 ‐ 12/2019}{{\color{blue}\href{https://workplacefabric.com/}{(WORKPLACE FABRIC INDIA P.LTD)}}}{Associate Software Engineer,}{Mumbai, India}{}{
+{\begin{itemize}[leftmargin=0.6cm, label={\textbullet}]
+\item Developed a fully functional website for TiM, a product that detects live human presence in meeting rooms using thermal sensors.
+\item Created dashboard designs, mockups, and templates for screens to meet client requirements.
+\item Implemented and installed the product at different client locations with the help of the team.
+\item Conducted debugging and health checkups for the product to ensure optimal performance.
+\item Managed communication with clients, including reviewing products and addressing any missing details or issues.
+\item Created test cases and performance reports for the product, tracking installations and resolving tickets as needed.
+\end{itemize}}}
+\vspace{\baselineskip}
+\textbf{ \customcventry{02/2019}{}{Client Visit to Dubai (WTW Company)}{Dubai, UAE}}
+\begin{itemize}
+\item Visited Dubai for a week to meet with the client, WTW Company, to discuss project requirements and provide on-site support.
+\end{itemize}
+
+\section{Education}
+\customcventry{2013-2017}{\color{blue}\href{https://www.coeb.ac.in/}{Biju Patnaik University of Technology }}{B.Tech Computer Science Engineering }{Bhubaneswar, Odisha}{}{}
+\vspace{\baselineskip}
+\customcventry{2012-2013}{\color{black}{ D.C College}}{Senior Secondary School (12\textsuperscript{\textsc{th}}) }{Vaishali, Bihar}{}{}
+\vspace{\baselineskip}
+\customcventry{2010}{\color{black}{ Devendra Nath Singh High School}}{Secondary School (10\textsuperscript{\textsc{th}}) }{Ranchi, Jharkhand}{}{}
+
+\section{Languages}
+    \begin{itemize}[label=\textbullet]
+    \item {English} [Intermediate]
+    \item {{Hindi} [Native]}
+    \end{itemize}
+ \section{QR Code}
+ \begin{figure}[h]
+  \centering
+  \begin{subfigure}[b]{0.4\textwidth}
+    \centering
+    \fbox{\includegraphics[width=2cm, height=2cm]{qr-code1.png}}
+    \caption{QR Code 1}
+    \label{fig:qr-code1}
+  \end{subfigure}
+  \hfill
+  \begin{subfigure}[b]{0.4\textwidth}
+    \centering
+    \fbox{\includegraphics[width=2cm, height=2cm]{qr-code2.png}}
+    \caption{QR Code 2}
+    \label{fig:qr-code2}
+  \end{subfigure}
+  \caption{QR Codes}
+  \label{fig:qr-codes}
+\end{figure}
+ 
+\end{document}
